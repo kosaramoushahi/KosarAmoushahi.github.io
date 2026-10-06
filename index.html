@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kosar Amoushahi — AI Engineer, researcher, and teaching assistant." />
+  <title>Kosar Amoushahi | AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">KA<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">AI ENGINEER · RESEARCHER · EDUCATOR</p>
+        <h1>Building reliable AI systems for <span>real-world problems.</span></h1>
+        <p class="hero-text">
+          I'm Kosar Amoushahi, an AI Engineer at Zharfa Tech and an M.Sc. graduate in
+          Artificial Intelligence and Robotics from Amirkabir University of Technology.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#experience">Explore my work</a>
+          <a class="button secondary" href="resume.pdf" target="_blank">View résumé</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/mahsaamsi" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/kosar-amoushahi-7a8796245" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:kosar.amooshahi@aut.ac.ir">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orb"></div>
+        <div class="card-label">CURRENT FOCUS</div>
+        <h2>LLMs · RAG · Document AI · NLP · Computer Vision</h2>
+        <div class="mini-grid">
+          <div><strong>2+</strong><span>Years AI work</span></div>
+          <div><strong>4K+</strong><span>QA benchmark</span></div>
+          <div><strong>17.48</strong><span>M.Sc. GPA / 20</span></div>
+          <div><strong>17.81</strong><span>B.Sc. GPA / 20</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">01 · ABOUT</p>
+        <h2>Engineering with research in mind.</h2>
+      </div>
+      <div class="about-grid">
+        <p class="lead">
+          My work sits at the intersection of large language models, information retrieval,
+          document intelligence, and production software engineering.
+        </p>
+        <div class="about-text">
+          <p>
+            At Zharfa Tech, I have developed production-oriented AI applications including
+            RAG systems, Persian OCR/VLM document processing, agentic Text-to-SQL,
+            hierarchical document summarization, and document translation workflows.
+          </p>
+          <p>
+            My research background is in medical imaging, with a thesis on heart MRI
+            segmentation using hybrid CNN–Transformer architectures.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 · EXPERIENCE</p>
+          <h2>From experiments to production.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">FEB 2025 — PRESENT</div>
+            <div class="timeline-content">
+              <h3>AI Engineer · Zharfa Tech</h3>
+              <p class="muted">Production AI · RAG · Document AI · Agents</p>
+              <ul>
+                <li>Deployed and tuned RAG systems using RAGFlow, Elasticsearch, embeddings, and OpenAI-compatible models.</li>
+                <li>Built a resumable retrieval benchmark over about 4,000 question–answer pairs for embedding selection.</li>
+                <li>Developed Persian OCR-to-Markdown ingestion pipelines using vision-language models.</li>
+                <li>Built a schema-safe, read-only DSPy Text-to-SQL agent with conversational memory and testing.</li>
+                <li>Developed hierarchical summarization and document translation workflows backed by PostgreSQL.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">JUN 2022 — AUG 2022</div>
+            <div class="timeline-content">
+              <h3>Trainee · Mahya Energy Inc.</h3>
+              <p class="muted">Medical Imaging</p>
+              <ul>
+                <li>Supported MRI segmentation experiments, including data preparation, training runs, and evaluation.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">03 · RESEARCH & PROJECTS</p>
+        <h2>Selected work.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <span class="project-number">01</span>
+          <h3>Production RAG Systems</h3>
+          <p>Embedding evaluation, retrieval benchmarking, hybrid search, chunking, RAPTOR indexing, latency tuning, and production deployment.</p>
+          <div class="tags"><span>RAG</span><span>Elasticsearch</span><span>RAGFlow</span><span>LLM-as-a-Judge</span></div>
+        </article>
+        <article class="project-card">
+          <span class="project-number">02</span>
+          <h3>Persian Document AI</h3>
+          <p>OCR-to-Markdown processing for Persian PDF documents using vision-language models for downstream search and QA.</p>
+          <div class="tags"><span>OCR</span><span>VLM</span><span>Persian NLP</span></div>
+        </article>
+        <article class="project-card">
+          <span class="project-number">03</span>
+          <h3>Agentic Text-to-SQL</h3>
+          <p>A schema-aware, read-only SQL agent with conversational memory, structured answers, tests, and adversarial prompt checks.</p>
+          <div class="tags"><span>DSPy</span><span>SQL</span><span>Agents</span></div>
+        </article>
+        <article class="project-card">
+          <span class="project-number">04</span>
+          <h3>Heart MRI Segmentation</h3>
+          <p>Research on cardiac MRI segmentation using hybrid CNN–Transformer architectures and multi-scale feature fusion.</p>
+          <div class="tags"><span>PyTorch</span><span>Transformers</span><span>Medical Imaging</span></div>
+        </article>
+        <article class="project-card">
+          <span class="project-number">05</span>
+          <h3>Document Intelligence</h3>
+          <p>Hierarchical summarization and chunk-based document translation workflows with PostgreSQL-backed repositories.</p>
+          <div class="tags"><span>Summarization</span><span>Translation</span><span>PostgreSQL</span></div>
+        </article>
+        <article class="project-card">
+          <span class="project-number">06</span>
+          <h3>Publication</h3>
+          <p><strong>PHM-TransUNet</strong> — A Parallel Hierarchical Multi-Scale Transformer-UNet for cardiac MRI segmentation.</p>
+          <div class="tags"><span>Research</span><span>UNet</span><span>MaxViT</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 · SKILLS</p>
+          <h2>Tools I work with.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group"><h3>LLMs & NLP</h3><p>RAG · Embedding Evaluation · LLM-as-a-Judge · Hybrid Search · Agentic Workflows · Prompt Engineering · Text-to-SQL · Information Retrieval</p></div>
+          <div class="skill-group"><h3>Computer Vision</h3><p>OCR · Vision-Language Models · Image Segmentation · Classification</p></div>
+          <div class="skill-group"><h3>Data & Graph</h3><p>SQL · Knowledge Graphs · GraphRAG · Network Analysis</p></div>
+          <div class="skill-group"><h3>Engineering</h3><p>Service APIs · Containers · Linux · Version Control</p></div>
+          <div class="skill-group wide"><h3>Technologies</h3><p>Python · PyTorch · DSPy · RAGFlow · Elasticsearch · NumPy · Pandas · Scikit-learn · OpenCV · FastAPI · Docker · Git · GitHub · NetworkX</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">05 · EDUCATION</p>
+        <h2>Academic background.</h2>
+      </div>
+      <div class="education-grid">
+        <article class="edu-card">
+          <div class="edu-year">2023 — 2026</div>
+          <h3>M.Sc. in Artificial Intelligence and Robotics</h3>
+          <p>Amirkabir University of Technology (Tehran Polytechnic)</p>
+          <strong>GPA: 17.48 / 20</strong>
+          <p class="thesis">Thesis: Heart MRI Segmentation using Hybrid CNN–Transformer Architectures</p>
+        </article>
+        <article class="edu-card">
+          <div class="edu-year">2019 — 2023</div>
+          <h3>B.Sc. in Electrical Engineering</h3>
+          <p>Isfahan University</p>
+          <strong>GPA: 17.81 / 20</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="teaching" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">06 · TEACHING</p>
+          <h2>Teaching & academic support.</h2>
+        </div>
+        <div class="teaching-list">
+          <div class="teaching-item"><span>01</span><div><h3>Head Teaching Assistant · Complex Networks</h3><p>Amirkabir University of Technology</p></div></div>
+          <div class="teaching-item"><span>02</span><div><h3>Teaching Assistant · Machine Learning</h3><p>Amirkabir University of Technology</p></div></div>
+          <div class="teaching-item"><span>03</span><div><h3>Teaching Assistant · Convex Optimization</h3><p>Academic teaching and student support</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <p class="eyebrow">07 · CONTACT</p>
+      <h2>Let's build something useful.</h2>
+      <p>I'm interested in AI engineering, research, and opportunities where robust AI systems can solve meaningful problems.</p>
+      <a class="button primary" href="mailto:kosar.amooshahi@aut.ac.ir">kosar.amooshahi@aut.ac.ir</a>
+      <div class="contact-links">
+        <a href="https://github.com/mahsaamsi" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/kosar-amoushahi-7a8796245" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container"><span>© <span id="year"></span> Kosar Amoushahi</span><span>AI · Research · Engineering</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
